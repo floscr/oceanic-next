@@ -262,7 +262,9 @@ call <sid>hi("htmlTag",     s:gui05, "", s:cterm05, "", "") "}}}
 " JavaScript highlighting
 call <sid>hi("javaScript",        s:gui05, "", s:cterm05, "", "") "{{{
 call <sid>hi("javaScriptBraces",  s:gui05, "", s:cterm05, "", "")
-call <sid>hi("javaScriptNumber",  s:gui09, "", s:cterm09, "", "") "}}}
+call <sid>hi("javaScriptNumber",  s:gui09, "", s:cterm09, "", "")
+call <sid>hi("javascriptReturn",  s:gui0E, "", s:cterm09, "", "")
+call <sid>hi("javascriptIdentifier",  s:gui08, "", s:cterm09, "", "")
 
 " Markdown highlighting
 call <sid>hi("markdownCode",              s:gui0B, "", s:cterm0B, "", "") "{{{
